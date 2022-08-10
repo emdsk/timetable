@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Timetable</title>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <header>
+        <nav class="nav-container">
+            <h1 class="title">Time Table</h1>
+
+            <ul class="navlinks">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Student</a></li>
+                <li class="nav-item"><a href="#">Professor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    
+    <main>
+        <div class="form-container">
+            <div class="prof-form-container form">
+                <h2>Professor Log In</h2>
+                <form action="/add-professor" method="post" >
+                    <div class="form-el">
+                        <label for="prof-name">Name</label>
+                        <input name="name" type="text" id="prof-name" placeholder="Professor Name">
+                    </div>
+
+
+                    <div class="form-el">
+                        <label for="prof-course-1">Course 1:</label>
+
+                        <select name="Course-1" id="prof-course-1">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+
+
+                    <div class="form-el">
+                        <label for="prof-course-2">Course 2:</label>
+
+                        <select name="Course-2" id="prof-course-2">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-el">
+                        <button class="button prof-btn">Enroll</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="student-form-container form">
+                <h2>Student Log In</h2>
+                <form action="/add-student" method="post">
+                    <div class="form-el">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Student Name">
+                    </div>
+
+
+                    <div class="form-el">
+                        <label for="Course handle">Course 1:</label>
+
+                        <select name="Course-1" id="course-handle">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-el">
+                        <label for="Course handle">Course 2:</label>
+
+                        <select name="Course-2" id="course-handle">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-el">
+                        <label for="Course handle">Course 3:</label>
+
+                        <select name="Course-3" id="course-handle">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-el">
+                        <label for="Course handle">Course 4:</label>
+
+                        <select name="Course-4" id="course-handle">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-el">
+                        <label for="Course handle">Course 5:</label>
+
+                        <select name="Course-5" id="course-handle">
+                        <option value="cs101">CS101</option>
+                        <option value="cs102">CS102</option>
+                        <option value="cs103">CS103</option>
+                        <option value="cs104">CS104</option>
+                        <option value="cs105">CS105</option>
+                        <option value="cs106">CS106</option>
+                        <option value="cs107">CS107</option>
+                        <option value="cs108">CS108</option>
+                        <option value="cs109">CS109</option>
+                        <option value="cs110">CS110</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-el">
+                        <button class="button">Enroll</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>
